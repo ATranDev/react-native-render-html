@@ -37,7 +37,7 @@ An iOS/Android pure javascript react-native component that renders your HTML int
 
 ## Install
 
-`npm install react-native-render-html --save` or `yarn add react-native-render-html`
+`npm install ATranDev/react-native-render-html --save` or `yarn add ATranDev/react-native-render-html`
 
 ## Basic usage
 
