@@ -168,9 +168,7 @@ export function iframe(htmlAttribs, children, convertedCSSStyles, passProps) {
     ? { html: htmlAttribs.srcdoc }
     : { uri: htmlAttribs.src };
 
-  return (
-    <WebView key={passProps.key} source={source} style={style} useWebKit />
-  );
+  return <WebView key={passProps.key} source={source} style={style} />;
 }
 
 export function pre(htlmAttribs, children, convertedCSSStyles, passProps) {
